@@ -1,4 +1,4 @@
-# This is a task for Collabera recruitment
+# This is a first task for Collabera recruitment
 
 get_mac_addr.py is a script that takes MAC address as a positional argument, and returns a manufacturer name that is associated with that MAC address.
 
