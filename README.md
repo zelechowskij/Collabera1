@@ -13,6 +13,6 @@ get_mac_addr.py is a script that takes MAC address as a positional argument, and
 ```git clone https://github.com/zelechowskij/Collabera1.git && cd Collabera1```<br />
 2. **Place your API key in secret.json and save the file**<br />
 3. Build an image <br />
-```docker build -t getMacAddr:1.0 .```
+```docker build -t get-mac-addr:1.0 .```
 4. Run the docker image <br />
-```docker run getMacAddr:1.0 <MAC_ADDRESS>```
+```docker run get-mac-addr:1.0 <MAC_ADDRESS>```
