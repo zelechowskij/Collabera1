@@ -51,7 +51,7 @@ try:
     response = requests.get(FINAL_URL, headers={'X-Authentication-Token': API_KEY})
 
     if response.status_code == 200:
-        print(f"This MAC Address {args.mac} is associated with {response.text}")
+        print(response.text)
     else:
         raise requests.HTTPError(f'HTTP error\nStatus code:\t{response.status_code}\nResponse message:\t{response.text}')
 
